@@ -1,0 +1,19 @@
+Classes - Player, Question, Game
+
+Player
+
+-initialize method that includes name and num of lives
+-method to decrement a life when answered incorrectly
+
+Question
+
+-use rand method to generate random question between 1..20
+-method that asks the player the math question
+-method to asess players answer 
+
+Game
+
+-this class will contain the user I/O
+-include a method that acesses the math question method in Question class for the player to answer
+-include a method to change player turn or change round - contains game loop where each instance of the loop is the other players turn
+-include method for when a player has 0 lives the other player wins.
