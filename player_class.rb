@@ -14,6 +14,6 @@ end
 terry = Player.new("Terry")
 
 puts terry.name
-
+puts terry.lives
 puts terry.lose_life
 
