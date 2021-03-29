@@ -11,10 +11,10 @@ class Question
   end
 
   def assess_answer(answer)
-    @sum = answer
+    @sum == answer
   end
 end
 
-question = Question.new()
-puts question.math_question
-puts question.assess_answer(15)
+# question = Question.new()
+# puts question.math_question
+# puts question.assess_answer(10)
